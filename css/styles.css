@@ -1,0 +1,94 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+#header {
+	width: 540px;
+	height:75px;
+	margin:auto;
+	text-align: left;
+	border:1px solid #ccc;
+	line-height: 65px;
+	font-size: 25px;
+	padding-left: 15px;
+	color: white;
+	background-color: rgb(40, 134, 207);
+}
+
+#app {
+	width:540px;
+	margin: auto;
+	border-right-style: 1px solid #ccc;
+	border-left-style:1px solid #ccc;
+	padding:20px;
+
+}
+
+.field, .textarea{
+	margin: 30px auto;
+	width: 500px;
+	border: 1px solid #ccc;	
+}
+
+.field {
+	height: 40px;
+	line-height: 38px;
+}
+
+.textarea {
+	height: 100px;
+	display:flex;
+}
+
+.textarea i {
+	margin-top:5px;
+}
+
+textarea{
+	height:91px
+	width:450px;
+	border:0;
+	outline:0;
+	margin-top: 5px;
+	resize: none;
+}
+
+i {
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+}
+
+input {
+	width:450px;
+	border:0;
+	height: 38px;
+	outline: 0;
+}
+
+.focused {
+	border:1px solid #666;
+}
+
+select{
+	width: 500px
+	height:40px;
+	border:1px solid #ccc;
+}
+
+.button{
+	height: 80px;
+	background-color: rgb(195, 220, 241);
+}
+
+button {
+	margin-left: 25px;
+	margin-top: 25px;
+	background-color: rgb(40, 134, 207);
+	color: white;
+}
+
